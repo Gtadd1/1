@@ -1,0 +1,67 @@
+@font-face {
+    src: url("fonts/Merriweather-Bold.ttf");
+    font-family: "Merriweather Bold";
+}
+@font-face {
+    src: url("fonts/Roboto-Italic.ttf");
+    font-family: "Roboto Italic";
+}
+@media screen (min-width: 320px) and (max-width: 1024px) {
+    .body
+}
+@media screen and (orientation: landscape) {
+    .body
+}
+@media screen and (orientation: portrait) {
+    .body
+}
+@media all (max-width: 1024px) {
+    .body
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: antiquewhite;
+}
+.menu {
+    background-color: PaleGoldenrod;
+    padding: 5px 20px;
+    text-align: center;
+    border-bottom: 5px solid Moccasin;
+    font-family: "Merriweather", Helvetica, Arial, serif;
+    font-family: "Merriweather Bold", Helvetica, Arial, serif;
+    display: flex;
+    justify-content: space-around;
+    
+}
+h1, h2 {
+    color: DarkSlateGrey;
+    margin: 10px 20px;
+    text-align: center;
+    font-family: "Merriweather", Helvetica, Arial, serif;
+    font-family: 'Merriweather Bold', Helvetica, Arial, serif;
+}
+.img {
+    padding: 50px;
+    background-color: Bisque;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid Turquoise;
+}
+.text {
+    border: 5px solid Moccasin;
+    text-align: center;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto Italic', Helvetica, Arial, sans-serif;
+}
+.contact {
+    border: 5px solid Moccasin;
+    text-align: center;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto Italic', Helvetica, Arial, sans-serif;
+}
